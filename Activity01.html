@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <title>Module06 - Activity01</title>
+</head>
+<body>
+    <div ng-app>
+        <h1>Phone Information</h1>
+        <label>Phone name:</label>
+        <input type="text" ng-model="phone">
+        <label>Phone brand:</label>
+        <input type="text" ng-model="brand">
+        <label>Phone price:</label>
+        <input type="number" ng-model="price">
+        
+        <p>{{phone|uppercase}}</p>
+        <p>{{brand}}</p>
+        <p>{{price|currency:"₱"}}</p> 
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  </head>
+  <body>
+    <!-- <div>
+      <h2>Please enter your name</h2>
+      <input type="text" ng-model="nameControl">
+      <h1>Hi {{nameControl}}</h1>
+      <p ng-bind="nameControl"></p>
+    </div> -->
+    <div>
+        <h2>Please enter your name</h2>
+        <input type="text" ng-model="nameControl">
+        <h1>Hi {{nameControl|uppercase}}</h1>
+    </div>
+
+</body>
+</html>
